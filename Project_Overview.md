@@ -12,6 +12,15 @@ AWS DeepRacer for the participants to compete on model performances on a specifi
 
 To build the model and compete two main AWS services were used:
 
-<strong>AWS Robomaker</strong>.
+<strong>AWS Robomaker</strong>: Provides an environment to simulate and test our application in a 3d world with virtual tracks and a car to race.
 
-<strong>AWS Sagemaker</strong>.
+<strong>AWS Sagemaker</strong>: Provides a training environment for the Reinforcement Learning model. It takes the image taken from the car as the input paramenter and returns an action as an output. These actions will determine the driving style of the car allowing it to race quickly around corners and, win!
+
+### How does my model work? 
+Multiple parameters were provided by AWS to train the car. The full list can be found at: https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-reward-function-input.html
+
+After playing with different parameters and suprisingly failing to get the secret sauce working, I decided to use the steering direction of the car. The scoring function worked as follows:
+
+1) Get a circle with fixed radius surrounding the car.
+2) Find the intersection of the circle with the central line of the car.
+3) 
