@@ -26,3 +26,8 @@ After playing with different parameters and suprisingly failing to get the secre
 3) Steer the car towards this point. If the car achieves this direction the reward is increased. The further away it looks from the desired angle the lower the reward.
 
 ![image](https://user-images.githubusercontent.com/80718396/113424274-c9e5fd00-93c7-11eb-93cd-7a48ddd55139.png)
+
+The radius of the circle was adjusted depending on what track it was competing in and how wide the corners were. And that is it, got the secret sauce getting me to top 10 worldwide!
+
+![image](https://user-images.githubusercontent.com/80718396/113424671-72945c80-93c8-11eb-9c4e-08c84fa4da43.png)
+
