@@ -22,5 +22,5 @@ Multiple parameters were provided by AWS to train the car. The full list can be 
 After playing with different parameters and suprisingly failing to get the secret sauce working, I decided to use the steering direction of the car. The scoring function worked as follows:
 
 1) Get a circle with fixed radius surrounding the car.
-2) Find the intersection of the circle with the central line of the car.
-3) 
+2) Find the intersection of the circle with the central line of the track.
+3) Steer the car towards this point. If the car achieves this direction the reward is increased. The further away it looks from the desired angle the lower the reward
