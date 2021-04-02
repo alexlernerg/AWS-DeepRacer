@@ -11,6 +11,7 @@ AWS DeepRacer 1/18th scale RC vehicles capable of running inference on a trained
 AWS DeepRacer for the participants to compete on model performances on a specific track in a simulated or real environment and have the results ranked on a virtual or physical leader board. </em>
 
 To build the model and compete two main AWS services were used:
+
 <strong>AWS Robomaker</strong>.
 
 <strong>AWS Sagemaker</strong>.
