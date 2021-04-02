@@ -23,4 +23,6 @@ After playing with different parameters and suprisingly failing to get the secre
 
 1) Get a circle with fixed radius surrounding the car.
 2) Find the intersection of the circle with the central line of the track.
-3) Steer the car towards this point. If the car achieves this direction the reward is increased. The further away it looks from the desired angle the lower the reward
+3) Steer the car towards this point. If the car achieves this direction the reward is increased. The further away it looks from the desired angle the lower the reward.
+
+![image](https://user-images.githubusercontent.com/80718396/113424274-c9e5fd00-93c7-11eb-93cd-7a48ddd55139.png)
