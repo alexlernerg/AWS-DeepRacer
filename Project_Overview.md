@@ -1,4 +1,4 @@
-
+### Check out the video of competition day!
 https://user-images.githubusercontent.com/80718396/113427569-2b5c9a80-93cd-11eb-9e80-23b6cb080ebe.mp4
 
 
