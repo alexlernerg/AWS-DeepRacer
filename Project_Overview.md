@@ -1,3 +1,8 @@
+
+https://user-images.githubusercontent.com/80718396/113427569-2b5c9a80-93cd-11eb-9e80-23b6cb080ebe.mp4
+
+
+
 # AWS-DeepRacer
 Self Driving Car built for AWS DeepRacer competition
 
@@ -37,7 +42,10 @@ For the first 20 minutes I didn't even manage to finish a full lap... Then the c
 
 ![image](https://user-images.githubusercontent.com/80718396/113425072-23026080-93c9-11eb-994f-b331c3f84d32.png)
 
-We can see that after just 42 attempts the model learned to follow the track with a 100% success rate. This show. This is becuase Reinforcement Learning is all about rewarding good behaviour from early on. For example, imagine you are trying to get your dog to do a trick. If it does it, you reward him/her with a treat immediately and after multiple repetition it has learned to do it!
+We can o
+Uploading b59z7-e2gxo.mp4…
+
+bserve that after 42 attempts the model learned to follow the track with a 100% success rate. This show. This is becuase Reinforcement Learning is all about rewarding good behaviour from early on. For example, imagine you are trying to get your dog to do a trick. If it does it, you reward him/her with a treat immediately and after multiple repetition it has learned to do it!
 
 This is essentially the same with DeepRacer. When it points to the correct direction, the image tells the algorithm it's a good action and gives it a reward. 
 
