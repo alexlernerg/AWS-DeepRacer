@@ -12,4 +12,5 @@ AWS DeepRacer for the participants to compete on model performances on a specifi
 
 To build the model and compete two main AWS services were used:
 <strong>AWS Robomaker</strong>.
+
 <strong>AWS Sagemaker</strong>.
